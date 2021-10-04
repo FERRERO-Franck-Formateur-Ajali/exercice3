@@ -1,9 +1,3 @@
-
-<style>
-    .block {
-        display:block;
-    }
-</style>
 <!doctype html>
 <html lang="">
   <head>
@@ -15,6 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <title>excercice3</title>
+    <style>
+        .block {
+            display:block;
+        }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
