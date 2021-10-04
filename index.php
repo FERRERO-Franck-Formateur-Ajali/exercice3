@@ -2,11 +2,6 @@
 require_once 'articles.php';
 $colors = ['dark', 'light'];
 ?>
-<style>
-    .block {
-        display:block;
-    }
-</style>
 <!doctype html>
 <html lang="<?= isset($_GET['lang']) && !empty($_GET['lang']) ? $_GET['lang'] : 'fr'; ?>">
   <head>
@@ -18,6 +13,11 @@ $colors = ['dark', 'light'];
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <title><?= isset($_GET['title']) && !empty($_GET['title']) ? $_GET['title'] : 'excercice3'; ?></title>
+    <style>
+        .block {
+            display:block;
+        }
+    </style>
   </head>
   <body>
     <?php $color = isset($_GET['color']) && !empty($_GET['color']) && in_array($_GET['color'], $colors) ? $_GET['color'] : 'dark'; ?>
